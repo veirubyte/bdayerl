@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday!</title>
+    <meta name="description" content="A fun bouncing DVD animation for a birthday celebration.">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="start-overlay" class="overlay">
+        <div class="overlay-content">
+            <h1>Ready to Celebrate?</h1>
+            <button id="start-btn">Start Celebration</button>
+        </div>
+    </div>
+
+    <canvas id="confetti-canvas"></canvas>
+
+    <div id="container">
+        <img id="bounce-img" src="assets/312256fb-52a0-4254-bedc-7ebdc6a46f94.jpg" alt="Birthday Image" />
+        <div id="bounce-text">Happy Birthday!</div>
+    </div>
+
+    <audio id="bg-music" src="sounds/bday.mp3" loop></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
